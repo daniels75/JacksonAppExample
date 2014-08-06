@@ -20,8 +20,11 @@ public class UserSerializer extends JsonSerializer<User>{
 			JsonProcessingException {
 
 			generator.writeStartObject();
+			
 		    generator.writeFieldName("name");
 	        generator.writeString(value.getName());
+	        generator.writeStringField("anotherName", value.getName());
+	        
 	        generator.writeEndObject();
 		
 	}
