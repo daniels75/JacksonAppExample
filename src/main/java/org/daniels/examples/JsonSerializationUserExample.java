@@ -1,14 +1,12 @@
 package org.daniels.examples;
 
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
 
 import org.daniels.examples.model.User;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-public class JsonSerializationExample {
+public class JsonSerializationUserExample {
 	 
     public static void main(String args[]) {
     	

@@ -12,8 +12,6 @@ import com.fasterxml.jackson.databind.SerializerProvider;
 
 public class UserSerializer extends JsonSerializer<User>{
 
-
-
 	@Override
 	public void serialize(User value, JsonGenerator generator,
 			SerializerProvider provider) throws IOException,
