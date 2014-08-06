@@ -1,5 +1,24 @@
-node_modules
-dist
-.tmp
-.sass-cache
-app/bower_components
+# Compiled
+target/
+test-output/
+
+# Eclipse
+.classpath
+.classpath.orig
+.project
+.settings
+.metadata
+
+# IDEA
+.idea
+*.iml
+
+# Maven
+.m2
+.repository
+
+# Checkstyle
+.checkstyle
+
+# misc
+*.orig
