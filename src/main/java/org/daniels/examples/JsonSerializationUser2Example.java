@@ -23,6 +23,7 @@ public class JsonSerializationUser2Example {
  
         try {
             ObjectMapper mapper = new ObjectMapper();
+            
     
             String jsonString = mapper.writeValueAsString(user);
  
